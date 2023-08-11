@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Sign Up Page</title>
+    <link rel="stylesheet" href="style/reg.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Fredoka"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="mainhomescreen.html"> <img src="pic/logo.png" alt="Logo" /> </a>
+      </div>
+      <div class="already-acc">
+        <a href="login.html">Already have an account? Log in</a>
+      </div>
+    </header>
+    <main>
+      <h2 style="color: #37305e">
+        Create Your <br />
+        Account
+      </h2>
+      <h3 style="color: #37305e">We Care About Your Little Steps</h3>
+
+      <form class="signup-form">
+        <table>
+          <tr>
+            <td><label for="name">Full Name :</label></td>
+          </tr>
+          <tr>
+            <td>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Enter your name"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="childage">Your Child's Age :</label></td>
+          </tr>
+          <tr>
+            <td>
+              <input type="number" id="childage" name="childage" required />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="phonenumber">Phone Number :</label></td>
+          </tr>
+          <tr>
+            <td>
+              <input
+                type="tel"
+                id="phonenumber"
+                name="phonenumber"
+                placeholder="Enter your phone number"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="email">Email :</label></td>
+          </tr>
+          <tr>
+            <td>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter your email"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="password">Password :</label></td>
+          </tr>
+          <tr>
+            <td>
+              <input
+                type="password"
+                id="password"
+                name="password"
+                placeholder="Enter your unique password"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="address">Address :</label></td>
+          </tr>
+          <tr>
+            <td>
+              <textarea
+                id="address"
+                name="address"
+                rows="12"
+                cols="50"
+                placeholder="Enter your address"
+                required
+              ></textarea>
+            </td>
+          </tr>
+        </table>
+        
+        <button type="submit" onclick="window.location.href ='homepage.html';">
+          Sign Up
+        </button>
+      </form>
+    </main>
+  </body>
+</html>

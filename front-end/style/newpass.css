@@ -1,0 +1,121 @@
+/* Global styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Fredoka', sans-serif;
+}
+
+body {
+    position: relative;
+    width: 1440px;
+    height: auto;
+    background: #F5F5F5;
+}
+
+/* Header styles */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    z-index: 1000;
+    box-sizing: border-box;
+    bottom: -7.14%;
+    background: #F5F5F5;
+    border: 1.5px solid rgba(0, 0, 0, 0.15);
+    width: 1440px;
+    height: 75px;
+    left: 0px;
+    top: 0px;
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+
+    position: fixed;
+    right: 77.08%;
+    bottom: 16%;
+    height: 50px;
+    width: 200px;
+    left: 130px;
+    top: 13px;
+    border-radius: 0px;
+
+}
+
+/* Main styles */
+main {
+    padding-top: 100px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Fredoka';
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 58px;
+    letter-spacing: 0em;
+}
+
+.New-pass {
+    margin: auto;
+    max-width: 500px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+
+    position: absolute;
+    width: 450px;
+    /* height: 880px; */
+    left: 495px;
+    top: 348px;
+
+    background: rgba(42, 127, 228, 0.1);
+    border-radius: 15px;
+}
+
+.New-pass table {
+    margin: auto;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.New-pass td {
+    padding: 10px;
+}
+
+.New-pass td label {
+    font-weight: bold;
+}
+
+.New-pass td input,
+.New-pass td select,
+.New-pass td textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.New-pass button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    margin-top: 20px;
+}

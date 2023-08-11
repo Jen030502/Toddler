@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Update details</title>
+    <link rel="stylesheet" href="style/updatedetails.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Fredoka"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="homepage.html"> <img src="pic/logo.png" alt="Logo" /> </a>
+      </div>
+
+      <div class="wrapper">
+        <nav class="navbar">
+          <ul>
+            <li class="dropdown">
+              <a href="#">Join us</a>
+              <ul>
+                <li><a href="joinnan.html">For Nannie's</a></li>
+                <li><a href="joincent.html">For Center's</a></li>
+              </ul>
+            </li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="profile.html">Your Profile</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <h2 style="color: #37305e">
+        Update <br />
+        Details
+      </h2>
+      <h3 style="color: #37305e">We Care About Your Little Steps</h3>
+
+      <form class="updatedetails">
+        <table>
+          <tr>
+            <td><label for="name">Full Name :</label></td>
+          </tr>
+          <tr>
+            <td>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Enter your name"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="childage">Your Child's Age :</label></td>
+          </tr>
+          <tr>
+            <td>
+              <input type="number" id="childage" name="childage" required />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="phonenumber">Phone Number :</label></td>
+          </tr>
+          <tr>
+            <td>
+              <input
+                type="tel"
+                id="phonenumber"
+                name="phonenumber"
+                placeholder="Enter your phone number"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="email">Email :</label></td>
+          </tr>
+          <tr>
+            <td>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter your email"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="password">Password :</label></td>
+          </tr>
+          <tr>
+            <td>
+              <input
+                type="password"
+                id="password"
+                name="password"
+                placeholder="Enter your unique password"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="address">Address :</label></td>
+          </tr>
+          <tr>
+            <td>
+              <textarea
+                id="address"
+                name="address"
+                rows="12"
+                cols="50"
+                placeholder="Enter your address"
+                required
+              ></textarea>
+            </td>
+          </tr>
+        </table>
+        <button type="submit" onclick="window.location.href ='profile.html';">
+          UPDATE PROFILE
+        </button>
+      </form>
+    </main>
+  </body>
+</html>
